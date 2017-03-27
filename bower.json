@@ -1,0 +1,22 @@
+{
+  "name": "webpack-php-starter",
+  "description": "a starter template for PHP and webpack for bundling",
+  "main": "index.js",
+  "authors": [
+    "Erik Yuzwa <erik@erikyuzwa.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/wazoomedia/webpack-php-starter",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}

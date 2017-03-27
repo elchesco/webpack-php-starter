@@ -1,0 +1,30 @@
+{
+  "name": "webpack-php-starter",
+  "version": "0.2.0",
+  "description": "a starter template for PHP and webpack for bundling",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "grunt-php": "^1.5.1",
+    "load-grunt-tasks": "^3.5.2",
+    "path": "^0.12.7",
+    "style-loader": "^0.16.0",
+    "url-loader": "^0.5.8"
+  }
+}
