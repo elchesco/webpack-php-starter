@@ -1,18 +1,15 @@
 <?php
   /**
   * index.php
-  * this is the main entry point for our application
+  * this is the main entry point for our application - a main router if you need one
+  * it's certainly not always necessary, but it's a handy pattern to get into for
+  * dealing with things like session tokens or OAuth callback handlers
   */
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bundle.css" rel="stylesheet">
-</head>
-<body>
+  require_once("config.php");
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bundle.js"></script>
-</body>
-</html>
+  $route = 'home.php';
+
+  header('Location: ' . $route);
+  exit;
+?>
+
