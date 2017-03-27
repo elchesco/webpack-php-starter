@@ -1,5 +1,12 @@
 # webpack-php-starter
-simple starter kit for working with PHP and webpack
+simple starter kit for working with PHP and webpack.
+
+# features
+
+* PHP for handling any server-side necessities like security, OAuth, etc.
+* Webpack for bundling the assets of your app into the page
+* a handy `index.php` to be used as a router if required
+* configurable via `config.php`
 
 # getting started
 
