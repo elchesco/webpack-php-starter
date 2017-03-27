@@ -12,6 +12,7 @@ simple starter kit for working with PHP and webpack.
 
 * `git clone https://github.com/wazoomedia/webpack-php-starter.git`
 * `npm install` or `yarn install`
+* `bower install`
 
 # running the local server
 
