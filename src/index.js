@@ -1,4 +1,4 @@
 
-const styles = require('./css/styles.css');
+const styles = require('./styles/styles.scss');
 
 console.log('hello there peeps!');

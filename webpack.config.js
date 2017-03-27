@@ -24,7 +24,17 @@ module.exports = {
 			{ test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file-loader" },
 			{ test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=image/svg+xml" },
 
-			{ test: /\.json$/, loader: 'json-loader' }
+			{ test: /\.json$/, loader: 'json-loader' },
+      {
+        test: /\.scss$/,
+        use: [{
+          loader: 'style-loader' // creates style nodes from JS strings
+        }, {
+          loader: 'css-loader' // translates CSS into CommonJS
+        }, {
+          loader: 'sass-loader' // compiles Sass to CSS
+        }]
+      }
     ]
   },
   plugins: [

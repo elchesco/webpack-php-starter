@@ -7,6 +7,7 @@ simple starter kit for working with PHP and webpack.
 * Webpack for bundling the assets of your app into the page
 * a handy `index.php` to be used as a router if required
 * configurable via `config.php`
+* sass support
 
 # getting started
 
